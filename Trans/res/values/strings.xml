@@ -11,6 +11,10 @@
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
     
-    
+<!-- 
+added by me
+ -->    
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
 
 </resources>

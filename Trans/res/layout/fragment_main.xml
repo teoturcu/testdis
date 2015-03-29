@@ -8,9 +8,15 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.trans.MainActivity$PlaceholderFragment" >
 
+
     <TextView
-        android:id="@+id/section_label"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/section_label"
+        android:layout_below="@+id/section_label"
+        android:layout_marginTop="52dp"
+        android:text="Aceasta este o aplicatie care va ajuta sa accesati mai rapid informatiile oferite de catre firma de transport public din Galati, Transurb S.A."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

@@ -1,0 +1,7 @@
+package com.example.trans;
+
+import android.support.v4.app.Fragment;
+
+public class Section2TraseeFragment extends Fragment {
+
+}
