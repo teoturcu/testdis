@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;title_section1&apos; in &apos;com.example.trans.R.string&apos; to &apos;section1_home&apos;&#x0A;- Original project: &apos;Trans&apos;&#x0A;- Original element: &apos;com.example.trans.R.string.title_section1&apos;&#x0A;- Renamed element: &apos;com.example.trans.R.string.section1_home&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;title_section1&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/gen&lt;com.example.trans{R.java[R[string^title_section1" name="section1_home" references="true" setter="false" stamp="1427642375333" textual="false" version="1.0"/>
+</session>

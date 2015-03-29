@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trans</string>
+    <string name="section1">home</string>
+    <string name="section2">Trasee</string>
+    <string name="section3">Orar</string>
+    <string name="section4">Search</string><string name="section5">Contact</string><string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    
+    
+
+</resources>
