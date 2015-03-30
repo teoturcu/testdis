@@ -11,9 +11,9 @@ public class Section2TraseeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
         Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-    	System.out.println("===00===");
+    	System.out.println("===01===");
 
-    	View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+    	View rootView = inflater.inflate(R.layout.fragment_section2_trasee, container, false);
     	return rootView;
     }
 }

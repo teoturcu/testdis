@@ -68,6 +68,8 @@ public class MainActivity extends ActionBarActivity
                 fragmentnTransaction.replace(R.id.container, fragmentSection);
                 fragmentnTransaction.commit();
                 break;
+            
+             // load section2    
             case 1:
             	System.out.println("===1===");
             	fragmentSection = new Section2TraseeFragment();
@@ -75,14 +77,32 @@ public class MainActivity extends ActionBarActivity
                 fragmentnTransaction.replace(R.id.container, fragmentSection);
                 fragmentnTransaction.commit();
                 break;
+                
+            // load section3
             case 2:
             	System.out.println("===2===");
+            	fragmentSection = new Section3OrarFragment();
+                fragmentnTransaction = fragmentManager.beginTransaction();
+                fragmentnTransaction.replace(R.id.container, fragmentSection);
+                fragmentnTransaction.commit();
                 break;
+                
+            // load section4                
             case 3:
             	System.out.println("===3===");
-                break;
+            	fragmentSection = new Section4SearchFragment();
+                fragmentnTransaction = fragmentManager.beginTransaction();
+                fragmentnTransaction.replace(R.id.container, fragmentSection);
+                fragmentnTransaction.commit();
+                break;            
+            
+            // load section5
             case 4:
             	System.out.println("===4===");
+            	fragmentSection = new Section5ContactFragment();
+                fragmentnTransaction = fragmentManager.beginTransaction();
+                fragmentnTransaction.replace(R.id.container, fragmentSection);
+                fragmentnTransaction.commit();
                 break;
         }
         

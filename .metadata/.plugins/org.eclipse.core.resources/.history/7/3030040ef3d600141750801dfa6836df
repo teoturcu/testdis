@@ -22,8 +22,6 @@ import android.widget.TextView;
 
 public class MainActivity extends ActionBarActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
-
-	 Section1HomeFragment s1homeF = new Section1HomeFragment();
 	
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
@@ -52,49 +50,44 @@ public class MainActivity extends ActionBarActivity
 
     @Override
     public void onNavigationDrawerItemSelected(int position) {
-//    	Fragment objFragment = null;
-
-        switch(position){
-            case 0:
-            	System.out.println("===0===");
-                s1homeF = new Section1HomeFragment();
-             // Create new fragment and transaction
-//                Fragment newFragment = new ExampleFragment();
-                FragmentTransaction transaction = getFragmentManager().beginTransaction();
-
-                // Replace whatever is in the fragment_container view with this fragment,
-                // and add the transaction to the back stack
-                transaction.replace(R.id.fragment_section1_home, newFragment);
-                transaction.addToBackStack(null);
-
-                // Commit the transaction
-                transaction.commit();
-                break;
-            case 1:
-            	System.out.println("===1===");
-//                objFragment = new Menu2_Fragment();
-                break;
-            case 2:
-            	System.out.println("===2===");
-//                objFragment = new Menu3_Fragment();
-                break;
-            case 3:
-            	System.out.println("===3===");
-//                objFragment = new Menu3_Fragment();
-                break;
-            case 4:
-            	System.out.println("===4===");
-//                objFragment = new Menu3_Fragment();
-                break;
-        }
-        // update the main content by replacing fragments
+        Fragment fragmentSection = null;
+        FragmentTransaction fragmentnTransaction = null;
+        
+    	// update the main content by replacing fragments
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
                 .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
                 .commit();
+        
+        switch(position){
+        	// load section1_home_fragment
+            case 0:
+            	System.out.println("===0===");
+            	fragmentSection = new Section1HomeFragment();
+                fragmentnTransaction = fragmentManager.beginTransaction();
+                fragmentnTransaction.replace(R.id.container, fragmentSection);
+                fragmentnTransaction.commit();
+                break;
+            case 1:
+            	System.out.println("===1===");
+            	fragmentSection = new Section2TraseeFragment();
+                fragmentnTransaction = fragmentManager.beginTransaction();
+                fragmentnTransaction.replace(R.id.container, fragmentSection);
+                fragmentnTransaction.commit();
+                break;
+            case 2:
+            	System.out.println("===2===");
+                break;
+            case 3:
+            	System.out.println("===3===");
+                break;
+            case 4:
+            	System.out.println("===4===");
+                break;
+        }
+        
     }
 
-    Fragment fragment = null;
     
     public void onSectionAttached(int number) {
         switch (number) {

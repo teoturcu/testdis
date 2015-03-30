@@ -334,7 +334,11 @@ int layout activity_main 0x7f030018
 int layout fragment_main 0x7f030019
 int layout fragment_navigation_drawer 0x7f03001a
 int layout fragment_section1_home 0x7f03001b
-int layout support_simple_spinner_dropdown_item 0x7f03001c
+int layout fragment_section2_trasee 0x7f03001c
+int layout fragment_section3_orar 0x7f03001d
+int layout fragment_section4_search 0x7f03001e
+int layout fragment_section5_contact 0x7f03001f
+int layout support_simple_spinner_dropdown_item 0x7f030020
 int menu global 0x7f0c0000
 int menu main 0x7f0c0001
 int string abc_action_bar_home_description 0x7f0a0001

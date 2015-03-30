@@ -5,4 +5,3 @@ INDEX VERSION 1.126+/media/tturcu/MyLinuxPart/utile/disertatie/testdis/.metadata
 3071403774.index
 3230069869.index
 1632034733.index
-3838467815.index
