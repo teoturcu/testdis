@@ -16,7 +16,7 @@
         android:layout_alignLeft="@+id/section_label"
         android:layout_below="@+id/section_label"
         android:layout_marginTop="52dp"
-        android:text="test"
+        android:text="Aceasta este o aplicatie care va ajuta sa accesati mai rapid informatiile oferite de catre firma de transport public din Galati, Transurb S.A."
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
